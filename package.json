@@ -2,18 +2,23 @@
   "name": "simple-work-with-array",
   "version": "1.0.0",
   "description": "A simple example of npm library",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vudinhgiap/simple-work-with-array.git"
+    "url": "git+git@github.com:vudinhgiap/simple-work-with-array.git"
   },
   "author": "vugiap2808@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vudinhgiap/simple-work-with-array/issues"
   },
-  "homepage": "https://github.com/vudinhgiap/simple-work-with-array#readme"
+  "homepage": "https://github.com/vudinhgiap/simple-work-with-array#readme",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
 }
